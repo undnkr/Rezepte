@@ -1,9 +1,11 @@
-auswahl = input("Rezept auswählen (1, 2, 3):")
-portion = input("Wähle die Anzahl der Portionen aus")
-portions = int(portion)
 print("(1) Pfannkuchen",
       "(2) Waffeln",
       "(3) Käsekuchen")
+print("")
+auswahl = input("Rezept auswählen (1, 2, 3):")
+portion = input("Wähle die Anzahl der Portionen aus")
+portions = int(portion)
+
 print("")
 print("")
 
@@ -101,4 +103,3 @@ for Käsekuchen in [ str("Käsekuchen"),
 
 print("")
 input("Zum beenden beliebige Taste drücken...!")
-
